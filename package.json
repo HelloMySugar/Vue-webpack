@@ -1,0 +1,48 @@
+{
+  "name": "vue-webpack-iview",
+  "version": "1.0.0",
+  "description": "学习《Vue.js实战》之进阶篇",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.js --mode=development --history-api-fallback",
+    "build": "webpack --progress --hide-modules --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangtao2o/vue-webpack-iview.git"
+  },
+  "keywords": [
+    "vue",
+    "webpack",
+    "iview"
+  ],
+  "author": "yangtao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangtao2o/vue-webpack-iview/issues"
+  },
+  "homepage": "https://github.com/yangtao2o/vue-webpack-iview#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "style-loader": "^0.23.1",
+    "vue": "^2.5.22",
+    "vue-hot-reload-api": "^2.3.1",
+    "vue-loader": "^15.5.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.22",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "npm": "^6.6.0",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
+  }
+}
